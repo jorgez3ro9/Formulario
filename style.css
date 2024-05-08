@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background: rgb(166, 166, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    margin: 30px;
+    
+}
+.container p{
+   display: inline; 
+   width: 100px;
+   height: 100px;
+   background: white;
+}
+.form{
+   width: 300px; /* Ancho del formulario */
+   margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+.label{
+   display: block; /* Colocar las etiquetas en líneas separadas */
+   margin-bottom: 5px; /* Espacio entre etiqueta y campo */
+   position: absolute;
+   left: 100px;
+}
+.caja1{
+    display: flex;
+    width: 100px;
+    padding: 10px;
+}
+.caja1 input[type="text"],
+input[type="number"],
+input[type="e-mail"]{
+    width: 300px;
+    padding: 10px;
+    border: 1 px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.caja2{
+    display: flex;
+    width: 100px;
+    padding: 10px;
+}
+.caja3{
+    display: flex;
+    width: 300px;
+    padding: 10px;
+}
+.caja4{
+    display: flex;
+    width: 400px;
+    padding: 10px;
+
+}
+.caja5{
+    display: flex;
+    width: 500px;
+    padding: 5px;
+}
+.caja5 input[type="checkbox"],
+input[type="button"]{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    width: 400px;
+}
+
